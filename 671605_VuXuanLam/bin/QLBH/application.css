@@ -1,0 +1,105 @@
+.root{
+	-fx-background-color: #FFF0F5 ;
+	-fx-font-family:Time-new-roman;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+	-fx-background-image:url("/image/backgr.jpg");
+	-fx-background-size:cover;  
+}
+/* Định dạng cho Label */
+.label{
+   -fx-text-fill:red;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+	
+}
+
+/* Định dạng cho Button */
+.button{
+    -fx-background-color: #F5DEB3;
+    -fx-text-fill: purple;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+}
+   
+
+
+/* Định dạng cho TextField */
+.textfield{
+    -fx-border-color: #87CEEB;
+    -fx-text-fill: pink;
+    -fx-border-radius: 20px; /* Bo tròn biên */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+}
+
+.table-view{
+	-fx-background-color:#DB7093;
+	-fx-selection-bar: #357ae8; /* Màu chọn ô có tập trung */
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+	-fx-background-image: url("/image/aaa.jpg");
+	-fx-background-size: cover;
+}
+.table-header-row {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}/* TableRow */
+.table-row-cell {
+    -fx-background-color: #BDB76B; 
+    -fx-text-fill: red;
+}
+.table-row-cell:hover {
+    -fx-background-color: lightblue;
+}
+.table-view .table-row-cell:selected {
+    -fx-background-color:#808080 ; /* Màu nền hàng đã chọn */
+    -fx-border-radius: 15px;
+    
+    }
+ .table-cell{
+ 	-fx-alignment:center;
+ }
+ .table-column-header {
+    -fx-text-fill:	#FF00FF;
+    -fx-background-color: #007bff;
+}
+ 
+.image-view {
+    -fx-border-width: 1px; /* Độ rộng đường viền */
+    -fx-border-color: #cccccc; /* Màu đường viền */
+    -fx-border-radius: 5px; /* Bo tròn đường viền */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Hiệu ứng bóng đổ */
+}
+.button:hover {
+    -fx-background-color: #0056b3; /* Màu nền khi rê chuột */
+}
+
+.button:pressed {
+    -fx-background-color: #004080; /* Màu nền khi nhấn */
+}
+.checkbox {
+    -fx-font-size: 14px;
+    -fx-text-fill: pink;
+}
+
+.checkbox-box {
+    -fx-border-color: #333333;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
+
+.checkbox-box:hover {
+    -fx-border-color: #007bff;
+}
+
+.checkbox-box:selected {
+    -fx-background-color: #007bff;
+}
+
+.checkbox > .box {
+    -fx-background-color: #ffffff;
+}
+
+.checkbox > .mark {
+    -fx-background-color: #ffffff;
+}
+#titleLabel{
+	
+} /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
